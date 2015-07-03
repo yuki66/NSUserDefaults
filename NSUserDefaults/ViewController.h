@@ -9,7 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
+{
+ NSMutableArray *mutableArray;
+}
+-(IBAction)addObject;
+-(IBAction)removeObject;
 
 @end
 
